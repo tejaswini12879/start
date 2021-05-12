@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+       <title> HTML Cheat Sheet</title>
+       <style type="text/css">
+       	#main-header{
+       		text-align:center;
+       		background-color:rgb(100,50,100);
+       		color:white;
+       		padding:10px;
+       	}
+       	#main-footer{
+       		text-align:center;
+       		font-size:18px;
+       		padding:10px;
+       	}
+       </style>
+	</head>
+	<body>
+		<!--Headings , nav, section, article, aside, footer-->
+		<h1 id="main-header"> My Progress </h1>
+		<h1> Learn</h1>
+		<h2> Practice</h2>
+		<h3> Apply</h3>
+		<h4> Debug</h4>
+		<h5> Validate</h5>
+		<h6> Success</h6>
+        <section>
+        	<article>
+        <p>
+        	<strong> <!-- semantic tag for making the text stick out but default its bold-can be changed with css--> Learning</strong> is the process of acquiring new <a href="https://en.wikipedia.org/wiki/Understanding" target="_blank"> <!-- these href and target are called attributes which give more info about the tag and always found in the start tag. -->understanding</a>, <a href="https://en.wikipedia.org/wiki/Knowledge" target="_blank">knowledge</a>, <a href="https://en.wikipedia.org/wiki/Behavior" target="_blank">behaviors</a>, <a href="https://en.wikipedia.org/wiki/Skill" target="_blank">skills</a>, <a href="https://en.wikipedia.org/wiki/Value_(ethics)" target="_blank">values</a>, <a href="https://en.wikipedia.org/wiki/Attitude_(psychology)"target="_blank">attitudes</a> and <a href="https://en.wikipedia.org/wiki/Preference" target="_blank">preferences</a>.The ability to learn is possessed by humans, animals, and some machines; there is also evidence for some kind of learning in certain plants. Some learning is immediate, induced by a single event (e.g. being burned by a hot stove), but much skill and knowledge accumulate from repeated experiences. The changes induced by learning often last a lifetime, and it is hard to distinguish learned material that seems to be <em> <!-- emphasize-default italic --> "lost" </em> from that which cannot be retrieved.
+        </p>
+        </article>
+
+        <article>
+        <p> I am learning mern tech stack. This is my schedule.</p>
+        <!-- Lists - ordered and unordered-->
+        <ul><!-- unordered list -->
+        	<li><!-- items-->
+        		HTML
+        	</li>
+        	<li> CSS </li>
+        	<li> Bootstrap </li>
+        	<li> Javascript -J5 </li>
+        </ul>
+        <ol>
+        	<li> React Js </li>
+        	<li> Node Js </li>
+        	<li> MongoDB </li>
+        </ol>
+
+        <!-- Table -->
+        <table>
+        	<thead>
+    		<tr>
+        		<th>week</th>
+        		<th>work</th>
+        	</tr>
+    		</thead>
+        	<tbody>
+        		<tr>
+        			<td>week1</td>
+        			<td>Html, Css, bootstrap, Javascript</td>
+        		</tr>
+        		<tr>
+        			<td>week2</td>
+        			<td>ReactJs</td>
+        		</tr>
+        		<tr>
+        			<td>week3</td>
+        			<td>ReactJs</td>
+        		</tr>
+        		<tr>
+        			<td>week4</td>
+        			<td>NodeJs</td>
+        		</tr>
+        		<tr>
+        			<td>week5</td>
+        			<td>NodeJs</td>
+        		</tr>
+        		<tr>
+        			<td>week6</td>
+        			<td>MongoDB</td>
+        		</tr>
+        		<tr>
+        			<td>week7</td>
+        			<td>MongoDB</td>
+        		</tr>
+        	</tbody>
+        </table>
+        </article>
+        <!-- forms- cant make it function but just can do layout. function is possible with php-->
+        <hr>
+        <br>
+        <article>
+        <p>SO JOIN ME!</p>
+        <br>
+        <form action="registration_form.php" method="POST">
+
+        First name:
+        <div> <input type="text" name="firstname" placeholder="Enter firstname"> </div> <br> 
+
+        Last name:
+        <div> <input type="text" name="lastname" placeholder="Enter lastname"> </div> 
+        <input type="hidden" name="form_submitted" value="1" />
+        <br>
+
+        Email:
+
+        <div> <input type="Email" name="email" placeholder="Enter Email"> </div>
+        <br>
+
+        Gender:
+        <div><select name="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+        </select></div>
+        <br>
+
+        Age:
+        <div><input type="number" , name="Age", value="30", placeholder="Enter Age"> </div>
+        <br>
+
+        Birthday
+        <div><input type="date" , name="DOB"></div>
+        <br>
+
+        Comments: 
+        <div> <textarea name="Comments"></textarea> </div>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+	</article>
+    <br>
+    <!--button outside form-->
+    <button>Click To Like!</button>
+    <br>
+    <br>
+    <a href="https://www.ntaskmanager.com/blog/work-smarter-not-harder/">
+    <div>
+    <img src="https://www.ntaskmanager.com/wp-content/uploads/2020/02/Work-Smarter-Not-Harder.png" alt="Motto Image!" width="500">
+  	</div>
+  	</a>
+
+  	<!-- Quotations -->
+  	<blockquote cite="https://www.google.com/imgres?imgurl=https%3A%2F%2Fiamfearlesssoul.com%2Fwp-content%2Fuploads%2F2016%2F10%2Fsuccess-video-1-759x500.jpg&imgrefurl=https%3A%2F%2Fiamfearlesssoul.com%2Fsuccess-is-a-journey-not-a-destination%2F&tbnid=BrhSS8lS6nh22M&vet=12ahUKEwjf_OWf2sTwAhXJEnIKHQMbA8MQMygAegUIARC3AQ..i&docid=nFSUczIlrNeX1M&w=759&h=500&q=success%20is%20a%20journey%20not%20a%20destination&ved=2ahUKEwjf_OWf2sTwAhXJEnIKHQMbA8MQMygAegUIARC3AQ">
+
+  		Success is a journey not a destination! <abbr title=" Learn, Practice, Apply, Debug, Validate, Success">LPADVS</abbr> it is!
+  		
+  	</blockquote>
+
+  	<p>HTML practice by <cite> tejaswini </cite></p>
+    <nav>
+    <aside>
+    	<h3> FAQ</h3>
+    	<ul>
+    		<li>
+    			<a href="#">What is this page</a>
+    		</li>
+    	</ul>
+    </aside>
+</nav>
+</section>
+<div style="margin-top: 100px"></div>
+<footer id="main-footer"> Copyrights Limited &copy; by Suchitehya and Co</footer>
+	</body>
+</html>
